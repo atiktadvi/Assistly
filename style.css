@@ -292,6 +292,11 @@ body {
     display: block;
 }
 
+.chat_form .message_input:valid~.chat_controls #send_message,
+.chat_form.file_attached #send_message {
+    display: block;
+}
+
 em-emoji-picker {
     position: absolute;
     left: 50%;
