@@ -1,30 +1,89 @@
-# 🤖 Assistly - AI Chatbot
+# 🤖 Assistly AI Chatbot
 
-Assistly is a simple AI chatbot built using HTML, CSS, and JavaScript, powered by the Gemini API. It supports real-time chat, image upload, and emoji input.
+A modern AI-powered chatbot built using HTML, CSS, JavaScript, and Google Gemini API.
+This chatbot supports text conversations and image-based queries with a clean UI.
 
 ---
 
 ## 🚀 Features
 
-* AI chat
-* Image upload
-* Emoji picker
+* 💬 Real-time AI chat
+* 🖼️ Image input support
+* 😊 Emoji picker integration
+* ⚡ Fast responses using Gemini API
+* 🎨 Clean and responsive UI
+* 🔐 Secure API handling (serverless backend)
 
 ---
 
 ## 🛠️ Tech Stack
 
-* HTML, CSS, JavaScript
-* Gemini API
+* Frontend: HTML, CSS, JavaScript
+* Backend: Vercel Serverless Functions
+* API: Google Gemini API
 
 ---
 
-## ⚙️ Setup
+## 📁 Project Structure
 
-Add your API key in `script.js`:
-
-```js
-const API_KEY = "YOUR_API_KEY";
+```
+AI_Chatbot
+│
+├── index.html
+├── style.css
+├── script.js
+├── .gitignore
+├── README.md
+└── api
+    └── chat.js
 ```
 
-Open `index.html` in your browser.
+---
+
+## 🔐 Environment Variables
+
+Create a `.env` file in the root directory:
+
+```
+GEMINI_API_KEY=your_api_key_here
+```
+
+⚠️ Do not share your API key publicly.
+
+---
+
+## 💻 Run Locally
+
+Install Vercel CLI:
+
+```
+npm install -g vercel
+```
+
+Run the project:
+
+```
+vercel dev
+```
+
+Open in browser:
+
+```
+http://localhost:3000
+```
+
+---
+
+## 🌐 Deployment
+
+This project is deployed using Vercel.
+
+Steps:
+
+1. Push code to GitHub
+2. Import project on Vercel
+3. Add environment variable:
+
+   * `GEMINI_API_KEY`
+4. Deploy 🚀
+
