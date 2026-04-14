@@ -6,8 +6,7 @@ const fileUploadWrapper = document.querySelector(".file_upload_wrapper");
 const fileCancelButton = document.querySelector("#file-cancel");
 const chatForm = document.querySelector(".chat_form");
 
-const API_KEY = "YOUR_API_KEY"; 
-const API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent?key=${API_KEY}`;
+const API_URL = "/api/chat";
 
 const userData = {
     message: null,
